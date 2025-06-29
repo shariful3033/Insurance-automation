@@ -40,4 +40,4 @@ if st.button("Predict my category"):
     })
 
     prediction = model.predict(user_data)
-    st.success(f"Your insurance category is: {prediction[0]}")
+    st.success(f"Your insurance category: {prediction[0]}")
